@@ -1,0 +1,109 @@
+
+#login_content{
+	margin: 0px;
+	padding: 0px;
+	font-family: sans-serif, arial;
+}
+#loginBox{
+	width: 400px;
+	height: 440px;
+	background: #6688A8;
+	color: #fff;
+	top: 50%;
+	left: 50%;
+	position: absolute;
+	transform: translate(-50%, -50%);
+	box-sizing: border-box;
+	border-radius: 15px;
+	padding: 120px 100px;
+
+}
+.loginIcon{
+	width: 100px;
+	height: 100px;
+	position: absolute;
+	top: 5px;
+	left: calc(50% - 50px);
+}
+.title{
+	width: 210px;
+	font-family: serif;
+	font-size: 4vh;
+	text-align: center;
+}
+#loginBox p{
+	font-family: serif;
+	margin: 0;
+	padding: 5px;
+	font-weight: bold;
+	font-size: 18px;
+}
+
+#loginBox input{
+	width: 100%;
+	margin-bottom: 20px;
+}
+#loginBox input[type="text"], input[type="password"]{
+	color:#fff;
+	border: none;
+	border-bottom: 1px solid #fff;
+	background: transparent;
+	outline: none;
+	height: 30px;
+	font-size: 15px;
+}
+#loginBox input[type="submit"]{
+	color: #5D80A0;
+	border: none;
+	outline: none;
+	padding: 7px;
+	font-size: 16px;
+	background: #fff;
+	border-radius: 20px;
+	font-weight: bold;
+}
+#loginBox input[type="submit"]:hover{
+	cursor: pointer;
+	background: #D5AB35;
+	color: #fff;
+}
+#first_row{
+	border: 1px solid #eee;
+	padding: 20px 0;
+}
+.header_title{
+	font-size: 23px;
+	padding-top: 15px;
+	font-weight: bold;
+	font-family:serif;
+}
+#img-res{
+	padding-left: 25px;
+}
+#searchHere{
+	padding-top: 5px;
+}
+.itm-name{
+	font-weight: bold;
+}
+#sr_btn{
+	font-size: 15px;
+	padding: 5px 20px; 
+}
+#btm-row{
+	min-height: 400px;
+}
+#title-ne{
+	font-size: 17px;
+	font-weight: bold;
+	padding: 15px 0px;
+	padding-left: 10px;
+	border-bottom: 1px solid #eee;
+	background-color: #D9EDF7;
+}
+#register-btn{
+	font-size: 15px;
+}
+#tr-title{
+	background-color: #eee;
+}
